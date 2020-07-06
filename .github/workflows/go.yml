@@ -32,4 +32,4 @@ jobs:
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_SECRET }}
-        run: npx semantic-release@v17.1.1 --branches 'master' -r https://github.com/BenBraunstein/test-semantic-release.git
+        run: npx semantic-release@v17.1.1 --branches 'master'
